@@ -14,4 +14,11 @@ pipeline {
       }
     }
   }
+
+        stage('Shared Lib') {
+         steps {
+             helloWorld("Jenkins")
+         }
+      }
+
 }
